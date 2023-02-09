@@ -12,7 +12,6 @@ import argparse
 
 parser = argparse.ArgumentParser(description="DG-MIL main")
 
-parser.add_argument("--exp-name", type=str, default="DG-MIL fintuning and test per epoch")
 parser.add_argument("--dis_training_neg", type=str, default='./MAE_dynamic_trainingneg_dis.npy')
 parser.add_argument("--dis_training_pos", type=str, default='./MAE_dynamic_trainingpos_dis.npy')
 parser.add_argument("--feats_training_neg", type=str, default='./MAE_dynamic_trainingneg_feats.npy')

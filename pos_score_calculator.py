@@ -12,16 +12,16 @@ import faiss
 import torch
 import torch.nn as nn
 from tqdm import tqdm
-from models import SupResNet, SSLResNet
-from utils import (
-    get_features,
-    get_roc_sklearn,
-    get_pr_sklearn,
-    get_fpr,
-    get_scores_one_cluster,
-)
+#from models import SupResNet, SSLResNet
+# from utils import (
+#     get_features,
+#     get_roc_sklearn,
+#     get_pr_sklearn,
+#     get_fpr,
+#     get_scores_one_cluster,
+# )
 import sklearn.metrics as skm
-import data
+# import data
 
 # local utils for evaluation
 def get_scores(ftrain, ftest, food, clusters):
